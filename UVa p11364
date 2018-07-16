@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int t,n,x,min,max;
+    cin >> t;
+    while(t--)
+    {
+        min = 100;
+        max = -1;
+       cin >> n;
+       while(n--) {
+
+           cin >> x;
+           if(min > x) min = x;
+           if(max < x) max = x;
+       }
+       cout << 2*(max-min) << endl;
+    }
+}

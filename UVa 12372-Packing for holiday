@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int t,l,w,h,p=0;
+    cin >> t;
+    while(t--){
+        cin >> l >> w >> h;
+        if(l>20||w>20||h>20)
+            printf("Case %d: bad\n",++p);
+        else
+            printf("Case %d: good\n",++p);
+    }
+    return 0;
+}

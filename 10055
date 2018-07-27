@@ -4,8 +4,7 @@ using namespace std;
 int main() {
     long long int a,b,diff;
     while(scanf ("%lld %lld", &a, &b)) {
-        diff = abs(a - b);
-        printf("%lld\n", diff);
+        cout << abs(a-b) << endl;
     }
 
     return 0;
